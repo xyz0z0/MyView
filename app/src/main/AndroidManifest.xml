@@ -13,11 +13,12 @@
         <activity android:name=".viewpager.ViewPagerTestActivity" />
         <activity android:name=".viewpager_fragment.MainViewPagerActivity" />
         <activity android:name=".password_input.PasswordActivity" />
-        <activity android:name=".MyUtils.UtilsActivity"></activity>
-        <activity android:name=".multilevel_tree.MultilevelActivity">
+        <activity android:name=".MyUtils.UtilsActivity" />
+        <activity android:name=".multilevel_tree.MultilevelActivity"></activity>
+        <activity android:name=".edittext_demo.EditTextActivity">
 
         </activity>
-        <activity android:name=".edittext_demo.EditTextActivity">
+        <activity android:name=".constraint.ConstraintActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
