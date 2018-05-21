@@ -11,11 +11,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".viewpager.ViewPagerTestActivity" />
-        <activity android:name=".viewpager_fragment.MainViewPagerActivity"></activity>
-        <activity android:name=".password_input.PasswordActivity">
+        <activity android:name=".viewpager_fragment.MainViewPagerActivity" />
+        <activity android:name=".password_input.PasswordActivity" />
+        <activity android:name=".MyUtils.UtilsActivity"></activity>
+        <activity android:name=".multilevel_tree.MultilevelActivity">
 
         </activity>
-        <activity android:name=".MyUtils.UtilsActivity">
+        <activity android:name=".edittext_demo.EditTextActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
