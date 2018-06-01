@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.cheng.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,11 +16,13 @@
         <activity android:name=".viewpager_fragment.MainViewPagerActivity" />
         <activity android:name=".password_input.PasswordActivity" />
         <activity android:name=".MyUtils.UtilsActivity" />
-        <activity android:name=".multilevel_tree.MultilevelActivity"></activity>
-        <activity android:name=".edittext_demo.EditTextActivity">
+        <activity android:name=".multilevel_tree.MultilevelActivity" />
+        <activity android:name=".edittext_demo.EditTextActivity" />
+        <activity android:name=".constraint.ConstraintActivity"></activity>
+        <activity android:name=".retrofit.RetrofitActivity">
 
         </activity>
-        <activity android:name=".constraint.ConstraintActivity">
+        <activity android:name=".SpeechActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
